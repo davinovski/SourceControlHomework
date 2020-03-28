@@ -11,6 +11,7 @@ namespace SourceControlHomework
             Console.WriteLine("New York is the biggest city in the United States of America.");
             Country USA = new Country("USA", "North America");
             USA.printCountryAndContinent();
+            USA.printCountryAndContinentReversedOrder();
             Console.ReadKey();
         }
     }

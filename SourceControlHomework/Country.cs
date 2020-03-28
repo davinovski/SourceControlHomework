@@ -19,5 +19,9 @@ namespace SourceControlHomework
         {
             Console.WriteLine(this.Name + " is located in the continent of " + this.Continent);
         }
+        public void printCountryAndContinentReversedOrder()
+        {
+            Console.WriteLine("One of the countries located in the continent of " + this.Continent + " is " + this.Name);
+        }
     }
 }
