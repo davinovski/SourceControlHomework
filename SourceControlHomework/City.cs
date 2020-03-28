@@ -21,9 +21,9 @@ namespace SourceControlHomework
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(this.Name);
-            sb.Append(", ");
+            sb.Append(" is a city in ");
             sb.Append(this.Country);
-            sb.Append(" has a population of ");
+            sb.Append(" and has a population of ");
             sb.Append(this.Population);
             sb.Append(" million people.");
             Console.WriteLine(sb.ToString());
