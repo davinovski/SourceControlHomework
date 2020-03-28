@@ -19,6 +19,7 @@ namespace SourceControlHomework
 
         public void PrintCityMethod()
         {
+            Console.WriteLine("Lets learn something about " + this.Name);
             StringBuilder sb = new StringBuilder();
             sb.Append(this.Name);
             sb.Append(" is a city in ");
@@ -28,6 +29,5 @@ namespace SourceControlHomework
             sb.Append(" million people.");
             Console.WriteLine(sb.ToString());
         }
-
     }
 }
