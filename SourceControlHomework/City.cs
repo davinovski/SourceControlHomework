@@ -17,15 +17,16 @@ namespace SourceControlHomework
             Country = country;
         }
 
-        public string PrintCityMethod()
+        public void PrintCityMethod()
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(this.Name);
-            sb.Append(" ");
-            sb.Append(this.Population);
-            sb.Append(" ");
+            sb.Append(", ");
             sb.Append(this.Country);
-            return sb.ToString();
+            sb.Append(" has a population of ");
+            sb.Append(this.Population);
+            sb.Append(" million people.");
+            Console.WriteLine(sb.ToString());
         }
 
     }
