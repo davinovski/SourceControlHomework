@@ -29,5 +29,15 @@ namespace SourceControlHomework
             sb.Append(" million people.");
             Console.WriteLine(sb.ToString());
         }
+
+        public void printCityAndPopulation()
+        {
+            Console.WriteLine(this.Name + " has a population of " + this.Population + " million people.");
+        }
+
+        public void PrintCityAndCountry()
+        {
+            Console.WriteLine(this.Name + " - " + this.Country);
+        }
     }
 }

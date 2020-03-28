@@ -9,7 +9,7 @@ namespace SourceControlHomework
             City NewYork = new City("New York", 8.6, "USA");
             NewYork.PrintCityMethod();
             Console.WriteLine("New York is the biggest city in the United States of America.");
-            Country USA = new Country("USA", "North America");
+            Country USA = new Country("USA", "North America", 327.2);
             USA.printCountryAndContinent();
             USA.printCountryAndContinentReversedOrder();
             Console.ReadKey();
