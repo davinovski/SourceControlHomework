@@ -17,9 +17,15 @@ namespace SourceControlHomework
             Country = country;
         }
 
-        public string printMethod()
+        public string PrintCityMethod()
         {
-            return this.Name + " " + this.Population + " " + this.Country;
+            StringBuilder sb = new StringBuilder();
+            sb.Append(this.Name);
+            sb.Append(" ");
+            sb.Append(this.Population);
+            sb.Append(" ");
+            sb.Append(this.Country);
+            return sb.ToString();
         }
 
     }
